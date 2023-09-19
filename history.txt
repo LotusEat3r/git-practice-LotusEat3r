@@ -1,0 +1,134 @@
+    1  git config --global user.name "Dallin Robison"
+    2  git config --list
+    3  git config --global user.email "dallinrobison@gmail.com
+    5  git config --list
+   15  mkdir git_practice
+   16  cd git_practice
+   17  git init
+   18  git status
+   24  git status
+   26  git add file_1.txt
+   27  git status
+   28  git commit -m 'Create file_1'
+   29  git status
+   30  git status --global core.editor
+   31  git status
+   32  git log
+   35  git--version
+   36  git --version
+   37  git config info
+   38  git info
+   39  git --info
+   40  git --help
+   41  git status
+   42  git --status
+   52  git status
+   53  git init
+   54  git status
+   55  git info
+   56  git config --list
+   57  git config --list
+   58  git config --list core.editor
+   59  git config --global core.editor
+   60  git config --list
+   61  git --summary
+   62  find / -name '.git'
+   72  cd git_practice
+   73  git remote add origin git@github.com:LotusEat3r/git_practice_LotusEat3r.git
+   74  git remote origin
+   75  git remote
+   76  git push -u origin main
+   77  git pull
+   86  cd git_practice
+   88  git status
+   90  git status
+   91  git add .
+   92  git status
+   93  git commit -m "create new files"
+  102  mkdir git_practice
+  104  cd git_practice
+  105  git init
+  107  git status
+  110  git status
+  111  git add .
+  112  git status
+  113  git commit -m "create new files"
+  114  git status
+  115  git log
+  117  git status
+  118  git add "file_1.txt"
+  119  git status
+  120  git commit -m "add text to file_1.txt"
+  121  git status
+  122  git add .
+  123  git status
+  124  git commit -m "add text to file_2.txt"
+  125  git status
+  126  git log
+  132  git status
+  133  git add .
+  134  git commit -m "add readme with title and description"
+  135  git status
+  137  touch .gitignore
+  138  git add .
+  139  git status
+  140  git commit -m "add .gitignore to ignore api-keys.txt"
+  141  git status
+  145  git status
+  146  git status
+  147  git branch features
+  148  git branch --list
+  149  git log
+  152  cd git_practice
+  154  git log
+  155  git switch features
+  156  git log
+  159  git add .
+  160  git status
+  161  git commit -m "add empty file"
+  162  git status
+  163  git add .
+  164  git commit -m "add new features"
+  165  git switch main
+  167  git status
+  168  git add .
+  169  git commit -m "update file_1.txt"
+  170  git log
+  171  git merge features
+  173  cd git_practice
+  174  git log
+  175  git merge features
+  176  git status
+  177  git commit -m "merge features to main"
+  178  git status
+  179  git log
+  180  git status
+  181  git add .
+  182  git commit -m "plan no changes"
+  183  git switch features
+  184  git add .
+  185  git commit -m "add new changes"
+  186  git switch main
+  187  git mergetool features
+  188  git merge features
+  189  git add .
+  190  git commit -m "merge with features and resolve conflicts"
+  191  git branch -d features
+  193  cd OneDrive/Documents/School/Stat\ 386/git_practice/
+  194  git remote add origin git@github.com:LotusEat3r/git-practice-LotusEat3r.git
+  195  git push -u origin main
+  198  git clone
+  199  git clone git@github.com:LotusEat3r/git-practice-camilla47.git
+  201  cd git-practice-camilla47/
+  202  git branch feature-LotusEat3r
+  203  git switch feaature-LotusEat3r
+  204  git switch feature-LotusEat3r
+  205  git add .
+  206  git commit -m "Create feature branch and suggest new changes"
+  207  git status
+  208  git push origin feature-LotusEat3r
+  209  git pull
+  213  cd git_practice/
+  214  git pull
+  215  git log --oneline > gitlog.txt
+  216  history | grep git > history.txt
